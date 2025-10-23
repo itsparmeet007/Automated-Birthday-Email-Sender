@@ -6,8 +6,8 @@ import pandas as pd
 
 today = dt.datetime.now()
 today_tuple = (today.month,today.day)
-MY_EMAIL = 'ps.4321007@gmail.com'
-PASSWORD = 'mxxo lubu nuup pzze'
+MY_EMAIL = 'Sender Gmail'
+PASSWORD = 'Password code'
 
 data = pd.read_csv("birthdays.csv")
 birthday_dict = {(data_rows["month"],data_rows["day"]): data_rows for (index,data_rows) in data.iterrows()}
